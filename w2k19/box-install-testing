@@ -4,5 +4,5 @@
 # ##################################################
 #
 
-# choco install mariadb          --yes -limitoutput --no-progress
-# choco install postgresql       --yes -limitoutput --no-progress
+# choco install mariadb          --yes --limitoutput --no-progress
+# choco install postgresql       --yes --limitoutput --no-progress

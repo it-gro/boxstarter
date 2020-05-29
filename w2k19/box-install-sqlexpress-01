@@ -5,6 +5,6 @@
 #
 
 # https://chocolatey.org/packages/sql-server-express
-choco install sql-server-express     --yes -limitoutput --no-progress
-choco install ssms                   --yes -limitoutput --no-progress
-choco install sqlserver-cmdlineutils --yes -limitoutput --no-progress
+choco install sql-server-express     --yes --limitoutput --no-progress
+choco install ssms                   --yes --limitoutput --no-progress
+choco install sqlserver-cmdlineutils --yes --limitoutput --no-progress
