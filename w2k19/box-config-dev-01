@@ -2,9 +2,33 @@
 # 2020-05, Bruno Grossniklaus, https://github.com/it-gro
 
 # ##################################################
+#
+Disable-InternetExplorerESC
+Disable-GameBarTips
+Disable-BingSearch
+Enable-RemoteDesktop
+
+# ##################################################
 # --- Windows Features ---
 # Show hidden files, Show protected OS files, Show file extensions
-Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+# Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives
+# Set-WindowsExplorerOptions -EnableShowProtectedOSFiles
+Set-WindowsExplorerOptions -EnableShowFileExtensions
+Set-WindowsExplorerOptions -EnableShowFullPathInTitleBar
+Set-WindowsExplorerOptions -EnableOpenFileExplorerToQuickAccess
+Set-WindowsExplorerOptions -EnableShowRecentFilesInQuickAccess
+Set-WindowsExplorerOptions -EnableShowFrequentFoldersInQuickAccess
+Set-WindowsExplorerOptions -EnableExpandToOpenFolder
+Set-WindowsExplorerOptions -EnableShowRibbon
+
+# Set-StartScreenOptions -EnableBootToDesktop
+# Set-StartScreenOptions -EnableDesktopBackgroundOnStart
+# Set-StartScreenOptions -EnableShowStartOnActiveScreen
+# Set-StartScreenOptions -EnableShowAppsViewOnStartScreen
+# Set-StartScreenOptions -EnableSearchEverywhereInAppsView
+# Set-StartScreenOptions -EnableListDesktopAppsFirst
 
 # ##################################################
 # --- File Explorer Settings ---
