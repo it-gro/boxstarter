@@ -5,21 +5,21 @@
 #
 
 
-choco install -r -y  7zip.install
-choco install -r -y  git
-choco install -r -y  ConEmu
-choco install -r -y  freecommander-xe.install
+choco install --no-progress -y  7zip.install
+choco install --no-progress -y  git
+choco install --no-progress -y  ConEmu
+choco install --no-progress -y  freecommander-xe.install
 
-choco install -r -y  notepadplusplus
-choco install -r -y  vscode
+choco install --no-progress -y  notepadplusplus
+choco install --no-progress -y  vscode
 
-choco install -r -y  googlechrome
-# choco install -r -y  firefox
+choco install --no-progress -y  googlechrome
+# choco install --no-progress -y  firefox
 
-choco install -r -y  python3
-choco install -r -y  pycharm-community
+choco install --no-progress -y  python3
+choco install --no-progress -y  pycharm-community
 
-choco install -r -y  mariadb
-choco install -r -y  postgresql
+choco install --no-progress -y  mariadb
+choco install --no-progress -y  postgresql
 
-choco install -r -y  tableau-desktop
+choco install --no-progress -y  tableau-desktop
