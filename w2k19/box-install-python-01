@@ -1,0 +1,7 @@
+# boxstarter file
+# 2020-05, Bruno Grossniklaus, https://github.com/it-gro
+
+# ##################################################
+#
+choco install python3
+choco install pycharm-community
