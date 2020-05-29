@@ -6,9 +6,9 @@
 
 
 choco install -r -y  7zip.install
-choco install -r -y  freecommander-xe.install
 choco install -r -y  git
 choco install -r -y  ConEmu
+choco install -r -y  freecommander-xe.install
 
 choco install -r -y  notepadplusplus
 choco install -r -y  vscode
@@ -20,4 +20,6 @@ choco install -r -y  python3
 choco install -r -y  pycharm-community
 
 choco install -r -y  mariadb
+choco install -r -y  postgresql
+
 choco install -r -y  tableau-desktop
