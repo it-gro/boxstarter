@@ -14,7 +14,7 @@ choco install --no-progress -y  notepadplusplus
 choco install --no-progress -y  vscode
 
 choco install --no-progress -y  googlechrome
-choco install --no-progress -y  firefox
+# choco install --no-progress -y  firefox
 
 choco install --no-progress -y  python3
 choco install --no-progress -y  pycharm-community
