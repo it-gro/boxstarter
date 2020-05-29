@@ -4,5 +4,4 @@
 # ##################################################
 #
 
-# choco install mariadb          --yes -limitoutput --no-progress
-# choco install postgresql       --yes -limitoutput --no-progress
+choco install tableau-desktop  --yes -limitoutput --no-progress
