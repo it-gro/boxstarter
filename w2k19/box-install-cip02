@@ -1,0 +1,22 @@
+# boxstarter file
+# 2020-05, Bruno Grossniklaus, https://github.com/it-gro
+
+# ##################################################
+#
+
+choco install -y 7zip.install
+choco install -y freecommander-xe.install
+choco install -y git
+choco install -y ConEmu
+
+choco install -y notepadplusplus
+choco install -y vscode
+
+choco install -y googlechrome
+choco install -y firefox
+
+choco install -y python3
+choco install -y pycharm-community
+
+choco install mariadb
+choco install tableau-desktop

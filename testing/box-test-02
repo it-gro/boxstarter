@@ -1,0 +1,7 @@
+New-Item -Path "c:\it-gro" -Name "wallpaper -ItemType "directory"
+
+# set desktop wallpaper
+Invoke-WebRequest -Uri 'http://chocolateyfest.com/wp-content/uploads/2018/05/img-bg-front-page-header-NO_logo-opt.jpg' -Method Get -ContentType image/jpeg -OutFile 'C:\it-gro\wallpaper\chocofest.jpg'
+Set-ItemProperty -path 'HKCU:\Control Panel\Desktop\' -name wallpaper -value 'C:\it-gro\wallpaper\chocofest.jpg'
+rundll32.exe user32.dll, UpdatePerUserSystemParameters
+RefreshEnv

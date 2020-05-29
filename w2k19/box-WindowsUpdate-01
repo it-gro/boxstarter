@@ -1,0 +1,8 @@
+# boxstarter file
+# 2020-05, Bruno Grossniklaus, https://github.com/it-gro
+
+# ##################################################
+#
+Enable-UAC
+Enable-MicrosoftUpdate
+Install-WindowsUpdate -AcceptEula
