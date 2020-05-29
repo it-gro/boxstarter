@@ -3,5 +3,5 @@
 
 # ##################################################
 #
-choco install python3            --yes -limitoutput --no-progress
+choco install python             --yes -limitoutput --no-progress
 choco install pycharm-community  --yes -limitoutput --no-progress
