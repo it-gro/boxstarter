@@ -3,10 +3,9 @@
 
 # ##################################################
 #
-
-choco feature disable -n=showDownloadProgress
-
 # https://chocolatey.org/packages/sql-server-express
+# https://chocolatey.org/packages/sms
+# https://chocolatey.org/packages/sqlserver-cmdlineutils
 choco install sql-server-express     --yes --limitoutput --no-progress
 choco install ssms                   --yes --limitoutput --no-progress
 choco install sqlserver-cmdlineutils --yes --limitoutput --no-progress

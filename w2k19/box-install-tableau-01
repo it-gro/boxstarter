@@ -3,6 +3,5 @@
 
 # ##################################################
 #
-
-choco feature disable -n=showDownloadProgress
+# https://chocolatey.org/packages/tableau-desktop
 choco install tableau-desktop  --yes --limitoutput --no-progress

@@ -3,6 +3,10 @@
 
 # ##################################################
 #
+choco feature disable -n=showDownloadProgress
+
+# ##################################################
+#
 Disable-InternetExplorerESC
 Disable-GameBarTips
 Disable-BingSearch

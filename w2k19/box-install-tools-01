@@ -8,11 +8,11 @@ choco install git                       --yes --limitoutput --no-progress
 choco install ConEmu                    --yes --limitoutput --no-progress
 choco install freecommander-xe.install  --yes --limitoutput --no-progress
 
-choco install nano                                        --yes --limitoutput --no-progress
-choco install notepadplusplus                             --yes --limitoutput --no-progress
-choco install vscode           --params "/NoDesktopIcon"  --yes --limitoutput --no-progress
+choco install nano                                             --yes --limitoutput --no-progress
+choco install notepadplusplus                                  --yes --limitoutput --no-progress
+choco install vscode           --params "/NoDesktopIcon"       --yes --limitoutput --no-progress
 
-choco install googlechrome                                --yes --limitoutput --no-progress
-choco install firefox       --params "/NoDesktopShortcut" --yes --limitoutput --no-progress
+choco install googlechrome                                     --yes --limitoutput --no-progress
+choco install firefox          --params "/NoDesktopShortcut"   --yes --limitoutput --no-progress
 
-choco install owncloud-client -yes --limitoutput --no-progress
+choco install owncloud-client                                  --yes --limitoutput --no-progress
