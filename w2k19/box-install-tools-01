@@ -6,6 +6,7 @@
 choco install 7zip.install              --yes --limitoutput --no-progress
 choco install git                       --yes --limitoutput --no-progress
 choco install ConEmu                    --yes --limitoutput --no-progress
+choco install jq                        --yes --limitoutput --no-progress
 choco install freecommander-xe.install  --yes --limitoutput --no-progress
 
 choco install nano                                             --yes --limitoutput --no-progress
