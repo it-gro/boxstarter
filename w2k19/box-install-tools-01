@@ -16,3 +16,7 @@ choco install googlechrome                                     --yes --limitoutp
 choco install firefox          --params "/NoDesktopShortcut"   --yes --limitoutput --no-progress
 
 choco install owncloud-client                                  --yes --limitoutput --no-progress
+
+choco install greenshot                                        --yes --limitoutput --no-progress
+# choco install office365homepremium                             --yes --limitoutput --no-progress
+choco install office365business                                --yes --limitoutput --no-progress
