@@ -1,0 +1,8 @@
+# boxstarter file
+# 2020-05, Bruno Grossniklaus, https://github.com/it-gro
+
+# ##################################################
+#
+# choco install office365homepremium                             --yes --limitoutput --no-progress
+# choco install office365business                                --yes --limitoutput --no-progress
+choco install microsoft-office-deployment --params "/Product:Excel2019Volume" --yes --limitoutput --no-progress
