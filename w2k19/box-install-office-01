@@ -7,4 +7,4 @@
 
 # https://chocolatey.org/packages/microsoft-office-deployment
 # choco install microsoft-office-deployment --params "/Product:Excel2019Volume" --yes --limitoutput --no-progress
-choco install microsoft-office-deployment --params "/Product:Excel2019Retail,/DisableUpdate" --yes --limitoutput --no-progress
+choco install microsoft-office-deployment --params "'/Product:Excel2019Retail /DisableUpdate'" --yes --limitoutput --no-progress
